@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: $bodyFont;
+    font-weight: 300;
+    color:$text;
+    line-height: 25px;
+    font-size: $fontSize;
+}
+h1,h2,h3,h4{
+    font-family: $headingsFont;
+}
+h1{
+    font-size:64px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size:27px;
+
+}

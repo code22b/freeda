@@ -1,3 +1,12 @@
-<h1>Coffe freeda</h1>
-<p>Git je super moramo ga znati</p>
-<p>Sluzi za rad u timu da bi imali pristup svim verzijama koda kako projekat napreduje</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe freeda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
+</html>
