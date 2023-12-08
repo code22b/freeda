@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffe freeda</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
-</html>
+<?php include 'parsals/header.php' ?>
+
+<?php include 'parsals/hero.php' ?>
+
+<?php include 'parsals/ponuda part.php' ?>
+
+<?php include 'parsals/meni part.php' ?>
+
+<?php include 'parsals/footer.php' ?>
+   
