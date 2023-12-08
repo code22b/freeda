@@ -112,6 +112,11 @@ img {
 .py {
   padding: 100px 0;
 }
+@media (max-width: 767px) {
+  .py {
+    padding: 50px 0;
+  }
+}
 
 .text-center {
   text-align: center;
@@ -175,18 +180,32 @@ img {
 .meni {
   background: black;
   color: #FACB36;
-  padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 767px) {
+  .meni {
+    padding-top: 50px;
+  }
+}
 .meni div:first-child {
   flex: 0 0 60%;
 }
+@media (max-width: 767px) {
+  .meni div:first-child {
+    flex: 0 0 100%;
+  }
+}
 .meni div:first-child .row {
-  padding: 200px;
+  padding: 100px;
+}
+@media (max-width: 767px) {
+  .meni div:first-child .row {
+    padding: 50px 10px;
+  }
 }
 .meni div:first-child .row .wrapper {
   display: flex;
@@ -204,20 +223,28 @@ img {
   flex: 0 0 50%;
   margin-bottom: 30px;
 }
+@media (max-width: 767px) {
+  .meni div:first-child .row .wrapper .menu-item {
+    flex: 0 0 100%;
+  }
+}
 .meni div:first-child .row .wrapper .menu-item .img {
   flex: 0 0 40%;
 }
 .meni div:first-child .row .wrapper .menu-item .img img {
-  width: 130px;
+  width: 100px;
 }
 .meni div:first-child .row .wrapper .menu-item .text {
-  flex: 0 0 55%;
-  text-align: center;
+  flex: 0 0 60%;
 }
 .meni div:first-child .row .wrapper .menu-item .text p {
   color: white;
-  padding: 10px;
 }
 .meni div:last-child {
   flex: 0 0 40%;
+}
+@media (max-width: 767px) {
+  .meni div:last-child {
+    flex: 0 0 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -85,6 +85,10 @@ color:$text;
 }
 .py{
  padding:100px 0;
+ @media(max-width: 767px) {
+  padding: 50px 0;
+
+}
 }
 .text-center{
     text-align: center;

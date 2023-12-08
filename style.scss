@@ -46,44 +46,56 @@
       }
     }
    }
-//Meni
-.meni{
+// meni
+.meni {
   background: $black;
-  color:$accents;
-  padding-top:50px;
-  @include flex();
-  div{
-    &:first-child{
-   flex:0 0 60%;
-   .row{
-    padding: 200px;
-     .wrapper{
-      @include flex();
-      .menu-item{
-        @include flex();
-        flex:0 0 50%;
-        margin-bottom: 30px;
-        .img{
-          flex:0 0 40%;
-          img{
-            width:130px;
+  color: $accents;
+  @include flex;
+  @media(max-width: 767px) {
+      padding-top: 50px;
+  }
+  div {
+      &:first-child {
+          flex: 0 0 60%;
+          @media(max-width: 767px) {
+              flex: 0 0 100%;
           }
-        }
-        .text{
-          flex:0 0 55%;
-          text-align: center;
-          p{
-            color:$white;
-            padding:10px;
+          .row {
+              padding: 100px;
+              @media(max-width: 767px) {
+                  padding: 50px 10px;
+              }
+              .wrapper {
+                  @include flex;
+                  .menu-item {
+                      @include flex;
+                      flex: 0 0 50%;
+                      margin-bottom: 30px;
+                      @media(max-width: 767px) {
+                          flex: 0 0 100%;
+                
+                      }
+                      .img {
+                          flex: 0 0 40%;
+                          img {
+                              width: 100px;
+                          }
+                      }
+                      .text {
+                          flex: 0 0 60%;
+                          p {
+                              color: $white;
+                          }
+                      }
+                  }
+              }
           }
-        }
       }
-     }
-
-   }
-    }
-    &:last-child{
-   flex:0 0 40%;
-    }
+      &:last-child {
+          flex: 0 0 40%;
+          @media(max-width: 767px) {
+              flex: 0 0 100%;
+          }
+      }
   }
 }
