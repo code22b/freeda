@@ -245,3 +245,40 @@ footer {
   }
 }
 
+.headers {
+    position: relative;
+    background: rgba($black,.9);
+    img {
+        height: 900px;
+        object-fit: cover;
+        @media(max-width: 767px) {
+            height: 500px;
+        }
+    }
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.my {
+    margin: 30px 0;
+}
+// dogadjaji
+.dogadjaji {
+  @include flex;
+  div {
+      flex: 0 0 32%;
+      border-radius: 20px;
+      box-shadow: 0px 3px 6px lightgray;
+      overflow: hidden;
+      @media(max-width: 767px) {
+          flex: 0 0 100%;
+          
+      }
+      div {
+          padding: 25px;
+      }
+  }
+}

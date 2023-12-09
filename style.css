@@ -46,6 +46,7 @@ nav {
   position: fixed;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
 }
 @media (max-width: 767px) {
   nav {
@@ -391,6 +392,53 @@ footer .btn {
 }
 .bottom-bar a {
   color: #444645;
+}
+
+.dogadjaji {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.dogadjaji div {
+  flex: 0 0 32%;
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px lightgray;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .dogadjaji div {
+    flex: 0 0 100%;
+  }
+}
+.dogadjaji div div {
+  padding: 25px;
+}
+
+.headers {
+  position: relative;
+  background: rgba(0, 0, 0, 0.9);
+}
+.headers img {
+  height: 900px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 767px) {
+  .headers img {
+    height: 500px;
+  }
+}
+.headers h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.my {
+  margin: 30px 0;
 }
 
 .dogadjaji {
