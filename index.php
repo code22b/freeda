@@ -10,5 +10,7 @@
 
 <?php include 'parsals/poruci part.php' ?>
 
+<?php include 'parsals/kontakt part.php' ?>
+
 <?php include 'parsals/footer.php' ?>
    
