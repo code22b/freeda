@@ -15,6 +15,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: "Amatic SC", sans-serif;
+  color: #FACB36;
 }
 
 h1 {
@@ -247,4 +248,45 @@ img {
   .meni div:last-child {
     flex: 0 0 100%;
   }
+}
+
+.usluge h2 {
+  color: #FACB36;
+  margin-bottom: 25px;
+}
+.usluge h2 + p {
+  margin-bottom: 90px;
+}
+.usluge p {
+  margin: 20px 0 100px 0;
+}
+.usluge article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: strech;
+}
+.usluge article div {
+  flex: 0 0 50%;
+}
+@media (max-width: 767px) {
+  .usluge article div {
+    flex: 0 0 100%;
+  }
+}
+.usluge article div:last-child {
+  background: #FCF4EA;
+  padding: 110px 50px 50px 50px;
+}
+@media (max-width: 767px) {
+  .usluge article div:last-child {
+    padding: 50px;
+  }
+}
+.usluge article div:last-child h3 {
+  margin-bottom: 10px;
+}
+.usluge article:nth-child(even) {
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=style.css.map */

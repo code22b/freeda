@@ -6,5 +6,7 @@
 
 <?php include 'parsals/meni part.php' ?>
 
+<?php include 'parsals/usluge part.php' ?>
+
 <?php include 'parsals/footer.php' ?>
    
