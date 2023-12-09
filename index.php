@@ -8,5 +8,7 @@
 
 <?php include 'parsals/usluge part.php' ?>
 
+<?php include 'parsals/poruci part.php' ?>
+
 <?php include 'parsals/footer.php' ?>
    

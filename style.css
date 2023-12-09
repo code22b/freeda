@@ -289,4 +289,32 @@ img {
 }
 .usluge article:nth-child(even) {
   flex-direction: row-reverse;
+}
+
+.poruci {
+  background-image: linear-gradient(to right, rgba(68, 70, 69, 0.99), rgba(252, 244, 234, 0.9)), url(img/poruci.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 250px 0;
+}
+@media (max-width: 767px) {
+  .poruci {
+    padding: 150px;
+  }
+}
+.poruci .container {
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .poruci .container {
+    width: 50%;
+  }
+}
+.poruci h2 {
+  margin-bottom: 15px;
+}
+.poruci p {
+  width: 50%;
+  color: white;
+  padding: 10px 0 35px 0;
 }/*# sourceMappingURL=style.css.map */

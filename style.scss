@@ -134,4 +134,26 @@
      }
     }
   }
-
+.poruci{
+  background-image:linear-gradient(to right,rgba($text,0.99),rgba($bg,0.9)) ,url(img/poruci.jpg);
+  background-position: center;
+  background-size: cover;
+  padding:250px 0;
+  @media(max-width:767px){
+    padding:150px;
+  }
+  .container{
+    width:50%;
+    @media(max-width:767px){
+      width:50%;
+    }
+  }
+  h2{
+    margin-bottom: 15px;
+  }
+  p{
+    width:50%;
+    color:$white;
+    padding:10px 0 35px 0;
+  }
+}
